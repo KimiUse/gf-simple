@@ -1,0 +1,10 @@
+gfcli:
+  gen:
+    dao:
+      - link: "mysql:root:xxxxx@tcp(127.0.0.1:3306)/gogen-test"
+        tables: "user_detail,user_scores"
+        descriptionTag: true
+        noModelComment: true
+        daoPath: dao/system
+        doPath: model/system/do
+        entityPath: model/system/entity
