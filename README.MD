@@ -1,5 +1,5 @@
 # GoFrame
-
+refer to https://goframe.org
 ## gf-web
 ### gen ctrl
 > Generate controller by defining API layer parameters
